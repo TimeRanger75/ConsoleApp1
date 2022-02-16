@@ -10,6 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Random rand = new Random();
+            int szam = rand.Next(1, 7);
+            Console.WriteLine(szam);
+            Console.ReadKey();
         }
     }
 }
